@@ -1,0 +1,15 @@
+{
+  "name": "sanket-agentos",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Open-source, self-healing AI automation agent for Indian e-governance portals.",
+  "author": "Susankar Karmakar",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r dev"
+  }
+}
